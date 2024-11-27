@@ -1,0 +1,455 @@
+Practical:1
+Steps to Create a New Google Spreadsheet
+1. Open a Web Browser: Launch any browser like Chrome, Firefox, or Safari.
+2. Go to Google Sheets: In the browser's address bar, type sheets.google.com and press Enter. This will take you to the Google Sheets homepage.
+3. Sign in to Your Google Account: If you're not already signed in, log in using your Gmail email and password. If you don’t have a Google account, you'll need to create one.
+4. Click on the “Blank” Template: Once you're on the Google Sheets homepage, you'll see several options, including templates. Click on the large 'Blank' option (white box with a plus sign) to create a new, empty spreadsheet.
+5. Rename Your Spreadsheet: At the top-left corner of the sheet, click on the default name 'Untitled spreadsheet.' Enter a new name that describes your spreadsheet and press Enter.
+6. Start Entering Data: The spreadsheet is now ready. Click on any cell to start entering data. Use the rows and columns to organize your information.
+7. Use Toolbar for Formatting: Text Formatting, Insert Functions, Adjust Columns/Rows.
+8. Add More Sheets (Optional): If you need multiple sheets in one file, click on the '+' icon at the bottom-left of the page to add a new sheet.
+9. Share the Spreadsheet (Optional): If you want to share the document with others, click on the Share button in the top-right corner. Enter email addresses and choose whether others can edit, view, or comment.
+10. Automatic Saving: Google Sheets automatically saves your work to Google Drive, so you don't need to manually save the document.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practical: 2
+Steps to Download and Install Dropbox on PC
+1. Visit the Dropbox Website
+Go to the Dropbox website (https://www.dropbox.com). Click on the 'Download Dropbox' button, usually available on the homepage.
+2. Download the Dropbox Installer
+After clicking the download button, the Dropbox installer (an .exe file) will begin downloading. Once the download is complete, open the installer by clicking on the file.
+3. Install Dropbox
+Follow the instructions on the screen to install Dropbox on your PC. You might need to agree to Dropbox's terms and conditions. Choose where you want Dropbox to be installed, or accept the default location.
+4. Sign Up or Log In
+Once installed, Dropbox will prompt you to sign up or log in. If you don't have an account, click 'Sign up' and create one using your email, or use Google to sign up. If you already have an account, enter your login credentials.
+5. Set Up Dropbox Sync
+After signing in, Dropbox will ask where you want to sync your files. By default, it will create a 'Dropbox' folder on your PC. Any files you place in this folder will automatically sync to your Dropbox cloud account, and you can access them from other devices.
+6. Backup Your PC Files
+To backup files, simply drag and drop them into the Dropbox folder on your PC. You can organize your files into subfolders to keep things structured. Dropbox will automatically sync these files to the cloud, so they’re backed up and available across devices.
+7. Access and Manage Files
+You can access your backed-up files through the Dropbox folder on your PC or via the Dropbox website (https://www.dropbox.com) by logging into your account.
+8. Manage Dropbox Settings
+You can tweak the sync settings by clicking the Dropbox icon in your system tray (bottom-right of the taskbar) and selecting 'Preferences'. You can choose which folders to sync and adjust bandwidth settings for optimal performance.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practical : 3
+Steps to Download and Install VirtualBox on Windows with Linux Installation
+Step 1: Download VirtualBox
+1. Go to the official VirtualBox website: https://www.virtualbox.org/.
+2. Click on 'Download VirtualBox'.
+3. Choose 'Windows Hosts' to download the installer for Windows.
+Step 2: Install VirtualBox on Windows
+1. Locate the downloaded installer (usually in your Downloads folder) and double-click to start the installation.
+2. Follow the on-screen instructions:
+   - Click 'Next' on the Welcome screen.
+   - Choose the installation location (or leave it as default), then click 'Next'.
+   - You can customize features (leave default settings if unsure), then click 'Next'.
+   - Confirm the network interfaces warning by clicking 'Yes'.
+   - Click 'Install' to start the installation process.
+3. After installation, click 'Finish'. VirtualBox will now be installed and ready to use.
+Step 3: Download Linux ISO
+1. Visit the official website of the Linux distribution you want to install (e.g., Ubuntu, CentOS, Fedora).
+2. Download the ISO file of the desired Linux version.
+   - For Ubuntu, visit https://ubuntu.com/download.
+   - For CentOS, visit https://www.centos.org/download/.
+   - For Fedora, visit https://getfedora.org/.
+Step 4: Create a New Virtual Machine in VirtualBox
+1. Open VirtualBox.
+2. Click on 'New' to create a new virtual machine.
+3. Enter a 'Name' for the virtual machine (e.g., Ubuntu).
+   - Set 'Type' to 'Linux'.
+   - Set 'Version' to the appropriate Linux version (e.g., Ubuntu 64-bit).
+4. Click 'Next'.
+Step 5: Allocate Memory (RAM)
+1. Choose the amount of RAM to allocate to your virtual machine.
+   - The recommended minimum for most Linux distributions is 2 GB (2048 MB), but you can adjust based on your system's resources.
+2. Click 'Next'.
+Step 6: Create a Virtual Hard Disk
+1. Select 'Create a virtual hard disk now', then click 'Create'.
+2. Choose 'VDI (VirtualBox Disk Image)' as the hard disk file type, then click 'Next'.
+3. Choose either 'Dynamically allocated' or 'Fixed size' (dynamically allocated is usually more space-efficient), then click 'Next'.
+4. Set the disk size (recommended at least 20 GB) and click 'Create'.
+Step 7: Attach the Linux ISO File
+1. Select the newly created virtual machine and click 'Settings'.
+2. Go to the 'Storage' section.
+3. Under 'Controller: IDE', click on the empty disk icon.
+4. In the 'Attributes' section on the right, click the disk icon next to 'Optical Drive', then choose 'Choose a disk file'.
+5. Locate and select the downloaded Linux ISO file, then click 'Open'.
+Step 8: Start the Virtual Machine and Install Linux
+1. With the ISO attached, click 'Start' to boot the virtual machine.
+2. The Linux installation process will begin. Follow the on-screen instructions to install Linux, similar to how you'd install on a physical machine.
+3. Select your language, location, and installation type, then follow the prompts to complete the installation.
+Step 9: Finalize Installation
+1. After installation, restart the virtual machine.
+2. Remove the ISO from the virtual drive by going to 'Devices > Optical Drives > Remove disk from virtual drive'.
+3. Your Linux virtual machine is now installed and ready to use on VirtualBox.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practical : 4
+
+Steps to Create Your Own Cloud Using OpenStack
+1. Prepare the Environment
+- Hardware Requirements: Make sure you have compatible hardware (at least 16 GB RAM, 4-core CPU, and 500 GB storage).
+- Operating System: Use a Linux distribution like Ubuntu (recommended: Ubuntu 20.04 LTS).
+2. Install Dependencies
+- Update and upgrade the system:
+  sudo apt update && sudo apt upgrade
+- Install the necessary dependencies:
+  sudo apt install software-properties-common
+  sudo add-apt-repository cloud-archive:wallaby  # Example: Wallaby version
+  sudo apt update && sudo apt upgrade
+3. Install OpenStack
+- Use the OpenStack DevStack method for a single-node cloud. Start by cloning the DevStack repository:
+  git clone https://opendev.org/openstack/devstack
+  cd devstack
+- Copy the sample local.conf file and modify it:
+  cp samples/local.conf .
+  nano local.conf
+- Add the following configuration:
+  [[local|localrc]]
+  ADMIN_PASSWORD=admin
+  DATABASE_PASSWORD=admin
+  RABBIT_PASSWORD=admin
+  SERVICE_PASSWORD=admin
+4. Run DevStack
+- Start the DevStack installation:
+  ./stack.sh
+- This will take some time as it sets up all OpenStack components (like Nova, Glance, Keystone, etc.).
+5. Access OpenStack Dashboard
+- Once installed, access the OpenStack Horizon dashboard via your browser:
+  http://<your-server-IP>/dashboard
+- Login using the credentials:
+  - Username: admin
+  - Password: admin (or the one set in local.conf).
+6. Create Networks, Subnets, and Routers
+- Go to the Networks section in Horizon, and create a network, subnet, and router to enable communication within your cloud instances.
+7. Create Cloud Instances
+- Create images for the virtual machines using Glance (the image service).
+- Go to the Instances tab, select “Launch Instance,” and choose the image, flavor, and network.
+8. Security Groups and Key Pairs
+- Set up security groups (like firewall rules) to allow SSH and ICMP (ping).
+- Create key pairs for SSH access to instances.
+9. Create and Manage Volumes
+- Use Cinder (block storage service) to create and attach volumes to instances.
+10. Scale and Manage
+- Scale by adding more nodes (controller, compute, storage) for a production-level cloud.
+- Use OpenStack CLI tools for better automation and management.
+
+
+
+
+
+
+Practical : 5
+
+Steps to Create a GitHub Account and Generate a GitHub Pages Link
+1. Create a GitHub Account
+- Go to GitHub's Website: Visit https://github.com.
+- Sign Up: Click on Sign up and fill in the necessary information (email, password, and username).
+- Verify Your Email: After registering, verify your email by clicking the verification link sent to your inbox.
+2. Create a New Repository
+- Login to GitHub: Once you’ve created your account, log in.
+- Create a New Repository:
+  - Click on the + icon in the upper-right corner.
+  - Choose New repository.
+  - Name your repository: You can name it something like 'my-website' or 'username.github.io'.
+  - Set repository visibility: Choose Public (required for GitHub Pages).
+  - Click Create repository.
+3. Add Your Website Files
+- Option 1: Directly from GitHub:
+  - You can add your website's HTML, CSS, and JavaScript files directly from GitHub by clicking Add file > Upload files.
+- Option 2: Using Git on Your Computer:
+  1. Install Git on your local machine (if not installed already).
+  2. Clone the repository:
+     git clone https://github.com/your-username/your-repo-name.git
+  3. Add your website files (like index.html, style.css, etc.) to the repository folder.
+  4. Push the changes:
+     git add .
+     git commit -m 'Initial commit for GitHub Pages'
+     git push origin main
+4. Enable GitHub Pages
+- Go to Repository Settings:
+  - Navigate to your repository, and click on the Settings tab.
+- Scroll to GitHub Pages Section:
+  - In the left sidebar, scroll down to the Pages section.
+- Source Branch:
+  - Under 'Source', select the branch where your website's code resides (usually main or master).
+  - Click Save.
+- Theme (Optional):
+  - You can also select a theme for your website from the Themes section.
+5. Access Your GitHub Pages Link
+- After a few minutes, your site will be available at:
+   https://your-username.github.io/your-repo-name
+- If you named the repository as username.github.io, your website will be available at:
+   https://username.github.io
+6. Update Content
+- To update the content, just push new changes to the repository (via Git or GitHub) and your GitHub Pages site will automatically update.
+
+
+
+
+
+
+
+
+
+Practical : 6
+
+ The steps to create a Salesforce account and understand the Salesforce user   interface:
+
+1. Create a Salesforce Account
+a. Go to Salesforce's Website
+Visit Salesforce Sign Up for a free trial.
+b. Sign Up for a Free Trial
+On the homepage, click Try for Free or Start My Free Trial.
+Fill in your personal details (first name, last name, email, company name, job title, etc.).
+Click “Start Free Trial” and you will receive an email to verify your account.
+c. Verify Your Email
+Check your inbox and click the verification link sent by Salesforce to activate your account.
+d. Log In to Salesforce
+Once verified, log in using your email and password at Salesforce Login.
+You will be directed to your Salesforce dashboard (Salesforce Lightning interface).
+2. Understanding the Salesforce User Interface (UI)
+Salesforce provides two types of interfaces: Salesforce Classic (older version) and Salesforce Lightning (modern version). Below is a breakdown of the Salesforce Lightning UI, which is the default and more widely used.
+
+a. Home Page
+Dashboard: This is your default landing page, where you’ll find important metrics, tasks, and performance charts.
+Search Bar: At the top of the page, use this to search for records, contacts, leads, etc.
+b. Navigation Bar
+Located at the top of the screen, the navigation bar provides links to the core objects in Salesforce (Accounts, Contacts, Leads, Opportunities, etc.). You can also customize this bar to add shortcuts.
+Apps: Access different applications in Salesforce like Sales, Marketing, Service, or create custom apps.
+c. Objects
+Accounts: These are companies or organizations you work with.
+Contacts: Individuals associated with the accounts.
+Opportunities: Sales deals you are working on.
+Leads: Potential customers that you are trying to qualify.
+Cases: Customer issues or support requests.
+d. Global Actions Menu
+The + icon at the top-right corner is for quick access to creating new records (e.g., new Lead, Task, Event, etc.).
+e. Utility Bar
+At the bottom, there is a utility bar where you can pin important tools such as Notes, Open Tasks, Calendar, or custom tools.
+f. Records View
+When you click on an object (like Leads or Contacts), you’ll see a list view.
+You can toggle between different list views (like “All Leads” or “Recently Viewed Leads”).
+Clicking a specific record will show details about it on the right, with tabs such as Details, Related, and Activity.
+g. Kanban View
+Available for Opportunities and some other objects, the Kanban View provides a visual board that allows you to move opportunities from one stage to another by dragging and dropping.
+h. Reports & Dashboards
+Reports: These are tables or charts that give you detailed information about your Salesforce data. You can create and customize reports.
+Dashboards: A visual display of your report data in various charts, graphs, and tables. This gives you an overview of key performance metrics.
+i. Settings & Profile
+User Profile: At the top right, click your profile icon to access your account settings (change password, add a profile picture, etc.).
+Setup Icon (Cogwheel): This allows you to access the Salesforce setup where you can manage apps, data models, user permissions, and more.
+3. Exploring Salesforce Apps
+Sales App: Focuses on managing leads, contacts, opportunities, and accounts.
+Service App: Focuses on managing customer support cases and services.
+Marketing Cloud: Helps with email campaigns, social media management, and other marketing tools.
+4. Customizing Your Workspace
+Customize Navigation Bar: You can add or remove tabs from the navigation bar to suit your workflow.
+Create Custom Dashboards: Use drag-and-drop features to create dashboards with widgets showing real-time data.
+By following these steps, you'll be able to set up a Salesforce account and navigate its user interface to start working efficiently.
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+Practical : 7
+ Data Analytics on the cloud (Salesforce)
+
+
+Step 1: Sign Up and Set Up Salesforce
+1.	Create a Salesforce Account:
+o	Sign up for a Salesforce account if you don’t have one. You can opt for the free trial or contact Salesforce for a more tailored solution (e.g., Sales Cloud, Service Cloud).
+2.	Set Up Data Access and Permissions:
+o	Define user roles, profiles, and permissions to ensure that the right users have access to the correct data.
+o	If you're working with multiple teams or departments, set up appropriate sharing rules.
+Step 2: Load Data into Salesforce
+1.	Identify Data Sources:
+o	Determine the sources of your data (e.g., internal systems, third-party APIs, CSV files).
+2.	Import Data:
+o	Use the Data Import Wizard or Data Loader to upload your data into Salesforce.
+o	Ensure your data is clean and properly formatted before importing (check for duplicates, missing fields, etc.).
+3.	Custom Objects and Fields:
+o	Create custom objects or modify existing standard objects in Salesforce to store your specific data.
+o	Add custom fields for any data points that are not part of the default Salesforce schema.
+Step 3: Connect Salesforce to Analytics Tools
+1.	Enable Salesforce Reports & Dashboards:
+o	Salesforce provides native reporting and dashboard features. Use them to build basic reports based on the data you have imported.
+o	Create custom reports by filtering and grouping data based on various parameters (like customer segments, sales regions, etc.).
+2.	Connect to Einstein Analytics (Salesforce Tableau CRM):
+o	If you need advanced data analytics, use Salesforce Tableau CRM (formerly Einstein Analytics).
+o	Set up Tableau CRM Analytics Studio to create custom dashboards, data visualizations, and predictive analytics.
+3.	Integrate with External Tools (Optional):
+o	If needed, connect Salesforce to external analytics platforms (like Tableau, Power BI, or Google Data Studio) through APIs or connectors.
+Step 4: Perform Data Cleaning and Transformation
+1.	Data Cleansing:
+o	Use Salesforce’s Duplicate Management tool to eliminate duplicate records.
+o	Create validation rules to ensure the data entered meets the required standards.
+2.	Data Transformation:
+o	Use Formulas and Workflow Rules in Salesforce to automate calculations and derive new metrics from your data (e.g., calculating the average deal size, win rate).
+Step 5: Analyze the Data
+1.	Salesforce Reports:
+o	Start by creating basic reports that meet your analytical goals (e.g., sales trends, lead conversion rates).
+o	Build custom reports with specific filters, grouping, and aggregation.
+2.	Tableau CRM (Einstein Analytics):
+o	Use Tableau CRM for advanced visualizations, predictive insights, and AI-driven analytics.
+o	Explore patterns in your data using predictive models or deep learning algorithms within Tableau CRM.
+o	Utilize Einstein Discovery for automated predictions and recommendations based on your data.
+Step 6: Create Dashboards
+1.	Build Dashboards in Salesforce:
+o	Use Salesforce’s built-in dashboard functionality to visually represent your reports.
+o	Combine multiple reports into a single dashboard to get a holistic view of your business metrics.
+2.	Tableau CRM Dashboards:
+o	For more advanced, interactive dashboards, use Tableau CRM.
+o	Customize these dashboards to display real-time data insights and actionable recommendations.
+Step 7: Schedule and Automate Reporting
+1.	Set Up Scheduled Reports:
+o	Schedule Salesforce reports to run at regular intervals (daily, weekly, monthly) and email the results to stakeholders.
+2.	Automation with Einstein Analytics:
+o	Use automated dataflows in Tableau CRM to refresh data and keep your analytics up-to-date.
+Step 8: Monitor and Refine Analytics
+1.	Data Health Monitoring:
+o	Regularly monitor data quality and refine the analytics process. Identify gaps, missing data, or incorrect entries.
+2.	Continuous Improvement:
+o	As your business grows, revisit and improve your analytics process. Introduce new metrics or dimensions as needed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practical :  8
+ Introduction to Amazon AWS S3
+Step 1: Create an AWS Account
+1.	Sign Up for AWS:
+o	Visit the AWS website and sign up for an account if you don’t have one. AWS offers a free tier for new users.
+o	Enter billing information and complete the account setup.
+Step 2: Set Up Amazon S3 Bucket
+1.	Go to the AWS Management Console:
+o	Log in to the AWS Management Console, and navigate to the S3 service.
+2.	Create a New S3 Bucket:
+o	Click on "Create Bucket".
+o	Enter a unique Bucket Name (the name must be globally unique across all AWS regions).
+o	Select the Region where you want to create the bucket (choose the nearest region for optimal performance).
+3.	Set Bucket Settings:
+o	Disable Block all public access (since you want the bucket to be publicly accessible for website hosting).
+o	Check the acknowledgment box for public access settings.
+4.	Create the Bucket:
+o	Click "Create Bucket" after reviewing the settings.
+Step 3: Upload Your Website Files
+1.	Open Your Bucket:
+o	Click on the name of the newly created bucket to open it.
+2.	Upload Files:
+o	Click on the "Upload" button.
+o	Drag and drop your website files (HTML, CSS, JS, images, etc.) into the upload section.
+o	Click "Upload" to add the files to your bucket.
+Step 4: Configure the S3 Bucket for Static Website Hosting
+1.	Enable Static Website Hosting:
+o	In the bucket properties (click on the "Properties" tab), scroll down to "Static website hosting".
+o	Click on "Edit", and select "Enable" static website hosting.
+2.	Specify Index and Error Documents:
+o	In the "Index document" field, enter the name of your home page file (e.g., index.html).
+o	In the "Error document" field, you can enter an error page file (e.g., 404.html), or leave it blank.
+3.	Save Changes:
+o	Click "Save changes" to enable static website hosting.
+Step 5: Make Your Website Files Public
+1.	Set Permissions:
+o	Go to the "Permissions" tab of your bucket.
+o	Under "Bucket policy", click on "Edit", and enter the following policy to make the files in the bucket publicly accessible:
+json
+Copy code
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::your-bucket-name/*"
+        }
+    ]
+}
+o	Replace "your-bucket-name" with your actual bucket name.
+o	Click "Save changes".
+Step 6: Test Your Website
+1.	Get the Website URL:
+o	Go back to the "Properties" tab and scroll down to the "Static website hosting" section.
+o	You will see the Endpoint URL (something like http://your-bucket-name.s3-website-region.amazonaws.com).
+2.	Access the Website:
+o	Open this URL in your browser to see your static website live.
+Step 7: (Optional) Associate a Custom Domain and SSL (Optional)
+If you want to use your custom domain with this static website:
+1.	Set Up Route 53:
+o	Use Amazon Route 53 to manage DNS and point your custom domain to your S3 bucket.
+2.	Enable HTTPS (SSL):
+o	Use AWS Certificate Manager (ACM) to get a free SSL certificate and enable HTTPS for your website, along with Amazon CloudFront for distribution.
+
+ 
+
+Hoisted Website output .
+
+
+
